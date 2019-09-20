@@ -5,13 +5,16 @@
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #333;
+    background: #000000;/*
+    background: -webkit-linear-gradient(#636363, #0c1216);
+    background:    -moz-linear-gradient(#6e6e6e, #0c1216);
+    background:         linear-gradient(#4d4d4d, #0c1216);*/
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px #2b2b2b;
     line-height: 1.6;
     height: 100vh;
     overflow: hidden;
 }
-
 .container{
     width: 100%;
     height: 100%;
@@ -20,46 +23,6 @@ body{
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
-
-section#landing h1 {
-    font-size: 4rem;
-    color: #fff;
-}
-
-section#landing p {
-    font-size: 1.5rem;
-    color: rgb(255, 187, 0);
-}
-
-section#about .about-padding {
-    position: relative;
-    top:0%;
-    width: 100%;
-    height: 5%;
-    background-color:#aef;
-}
-
-section#about {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-    width: 100%;
-    height: 100vh;
-    scroll-snap-align: center;
-}
-
-section#about h1 {
-    font-size: 1.5rem;
-    color: rgb(255, 187, 0);
-}
-
-section#about p {
-    font-size: 1rem;
-}
-
 section {
     position: relative;
     display: flex;
@@ -71,11 +34,30 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
-
 section h1 {
     font-size: 2rem;
 }
-
 section p {
     font-size: 1rem;
+}
+/* Image Link Formating */
+section#landing #social .link {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    top: 7px;
+    padding: 5px;
+}
+
+/* Projects Section Formating */
+section#projects #pr .pr{
+    background: rgba(255, 255, 255, 0.295);
+    background-clip: content-box;
+    padding: 2%;
+}
+
+section#projects h2 {
+    color: rgb(255, 187, 0);
+    text-shadow: 0px 0px 10px #202020;
+    width: 100%;
 }
