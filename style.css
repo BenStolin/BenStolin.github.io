@@ -5,11 +5,8 @@
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #000000;/*
-    background: -webkit-linear-gradient(#636363, #0c1216);
-    background:    -moz-linear-gradient(#6e6e6e, #0c1216);
-    background:         linear-gradient(#4d4d4d, #0c1216);*/
-    color: rgb(255, 255, 255);
+    background: #000000;
+    color: #ffffff;
     text-shadow: 2px 2px 10px #2b2b2b;
     line-height: 1.6;
     height: 100vh;
